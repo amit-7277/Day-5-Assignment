@@ -1,0 +1,6 @@
+num1=$((1+RANDOM%6))
+echo "First Number : "$num1
+num2=$((1+RANDOM%6))
+echo  "Second Number : "$num2
+sum=$num1+$num2
+echo "Sum : "$((sum))
